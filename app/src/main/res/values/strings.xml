@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Pose</string>
+    <string name="title_home">新手指导</string>
+    <string name="title_dashboard">动作训练</string>
+    <string name="title_introduction">训练讲解</string>
+    <string name="title_view">调整视野</string>
+    <string name="title_correct">动作纠错</string>
+    <string name="title_stop">结束训练</string>
+    <string name="title_step">要点</string>
+    <string name="title_report">训练质量视频报告</string>
+    <string name="title_error">常见错误</string>
+    <string name="image_sportswear">sportswear</string>
+    <string name="image_distance">distance</string>
+    <string name="image_angle">angle</string>
+    <string name="image_plank">plank</string>
+    <string name="image_bent">bent</string>
+    <string name="image_squat">squat</string>
+    <string name="text_sportswear">紧身运动服</string>
+    <string name="text_distance">手机距人 &gt; 1.5m</string>
+    <string name="text_angle">相机尽量与地面竖直</string>
+    <string name="text_plank">平板支撑\n20个.2组</string>
+    <string name="text_bent">俯身伸展\n20个.2组</string>
+    <string name="text_squat">靠墙下蹲\n20个.2组</string>
+    <string name="text_view">将整个人放在屏幕内\n点击开始训练按钮5s后开始训练</string>>
+    <string name="text_stop">完成训练</string>
+    <string name="button_attend">参与</string>
+    <string name="button_introduction">立即开始</string>
+    <string name="button_view">保持整个人在屏幕内\n调整好视野后自动开始训练</string>
+    <string name="button_start">Pause</string>
+    <string name="button_stop">查看训练报告</string>
+    <string name="button_final1">分享</string>
+    <string name="button_final2">保存</string>
+</resources>

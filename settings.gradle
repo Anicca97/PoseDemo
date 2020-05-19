@@ -1,0 +1,2 @@
+rootProject.name='Pose'
+include ':app'

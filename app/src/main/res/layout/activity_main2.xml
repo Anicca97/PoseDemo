@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".Main2Activity">
+
+    <VideoView
+        android:id="@+id/videoView_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="13dp" />
+
+    <TextView
+        android:id="@+id/textView_introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/videoView_introduction"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_step"
+        android:textColor="@color/big"
+        android:gravity="center_horizontal"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView2_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_introduction"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="22dp"
+        android:text="TextView"
+        android:textColor="@color/big"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView3_introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/textView2_introduction"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_error"
+        android:textColor="@color/big"
+        android:gravity="center_horizontal"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView4_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/textView3_introduction"
+        android:text="TextView"
+        android:textColor="@color/big"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/button_introduction"
+        android:background="@color/btn_normal"
+        android:textColor="@color/btn_text"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
